@@ -25,8 +25,8 @@
 | concept    | text       | null : false                   |
 | user       | references | null : false foreign_key: true |
 
-- has_many :comments
 - belongs_to :user
+- has_many :comments
 
 ## commentsテーブル
 
